@@ -1,0 +1,326 @@
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding: 20px 10%;
+}
+.logo{
+    
+    width: 20%;
+    height: 10vh;
+    background-color: white;
+    display: inline-block;
+    margin-right: 2px;
+}
+.mina{
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: calibri;
+    text-align: center;
+}
+
+.links{
+    float: right;
+    width: 50%;
+    height: 10vh;
+    background-color: white;
+    display: inline-block;
+}
+.cart{
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: gray; 
+    padding: 9px;
+}
+.discount{
+    width: 40%;
+    height: 40px;
+    background-color: blueviolet;
+    margin-left: 30%;
+}
+.promo{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: calibri;
+    text-align: center;
+    text-emphasis-color: white;
+    padding-top: 5px;
+    text-decoration-color: white;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: lightgray;
+}
+.main{
+    width: 100%;
+    height: 70vh;
+    background-color: bisque;
+    padding-top: 15% ;
+    background-image: url(mainframe.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.shop{
+    width: 80%;
+    height: 40vh;
+    background-color: blue;
+    margin-left: 10%;
+}
+.ceramic{
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clay{
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.features{
+    width: 100%;
+    height: 170vh;
+    background-color: cadetblue;
+    padding: 20px 2%;
+    display: inline-block;
+}
+.best{
+    width: 40%;
+    height: 60px;
+    background-color: aquamarine;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.selling{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.candy{
+    width: 40%;
+    height: 70vh;
+    background-color: azure;
+    display: inline-block;
+    padding: 15% 5px;
+   padding-top: 300px;
+   background-image: url(candyflowerpot.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.flowerpot{
+    width: 100%;
+    height: 10vh;
+    background-color: aquamarine;
+    margin-top: 70px;
+}
+.cand{
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    text-align: center;
+}
+.candyprice{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: calibri;
+    text-align: center;
+}
+
+.drop{
+    width: 40%;
+    height: 70vh;
+    background-color: azure;
+    float: right;
+    margin-right: 20px;
+    padding: 15% 5px;
+   padding-top: 300px;
+   background-image: url(dropvase.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.vase{
+    width: 100%;
+    height: 10vh;
+    background-color: aquamarine;
+    margin-top: 70px;
+}
+.dro{
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    text-align: center;
+}
+.dropprice{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: calibri;
+    text-align: center;
+}
+.wave{
+    width: 470px;
+    height: 70vh;
+    background-color: azure;
+    float: left;
+    margin-top: 50px;
+    padding: 15% 5px;
+    padding-top: 300px;
+    background-image: url(wavevast.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.vast{
+    width: 100%;
+    height: 10vh;
+    background-color: aquamarine;
+    margin-top: 70px;
+}
+.wav{
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    text-align: center;
+
+}
+.waveprice{
+    font-weight: lighter;
+    font-family: calibri;
+    text-align: center;
+}
+.sun{
+    width: 470px;
+    height: 70vh;
+    background-color: azure;
+    float: right;
+    margin-right: 20px;
+    margin-top: 50px;
+    padding: 15% 5px;
+    padding-top: 300px;
+    background-image: url(sunvase.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.vas{
+    width: 100%;
+    height: 10vh;
+    background-color: aquamarine;
+    margin-top: 70px;
+}
+.sunva{
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    text-align: center;
+}
+.sunprice{
+    font-weight: lighter;
+    font-family: calibri;
+    text-align: center;
+}
+
+.explore{
+    width: 100%;
+    height: 90vh;
+    background-color: coral;
+    margin-left: 2px;
+    padding-top: 15%;
+    background-image: url(homedecor.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.decor{
+    width: 80%;
+    height: 40vh;
+    background-color: blue;
+    margin-left: 10%;
+}
+.home{
+    font-size: 90px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.fav{
+    font-weight: lighter;
+    font-family: calibri;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.info{
+    width: 100%;
+    height: 90vh;
+    background-color: aquamarine;
+    display: inline-block;
+    
+}
+
+.about{
+    width: 47%;
+    height: 40vh;
+    background-color: darkkhaki;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30%;
+}
+.sustainability{
+    width: 47%;
+    height: 40vh;
+    background-color: darkkhaki;
+    display: inline-block;
+    margin-right: 20px;
+    float: right;
+    margin-top: 30%;
+}
+
+.signUp{
+    width: 100%;
+    height: 90vh;
+    background-color: darkgray;
+    padding-top: 15%;
+}
+.email{
+    width: 80%;
+    height: 50vh;
+    background-color: blue;
+    margin-left: 10%;
+}
+.socials{
+    width: 100%;
+    height: 90vh;
+    background-color: bisque;
+    padding-top: 5%;
+}
+.instagram{
+    width: 100%;
+    height: 80vh;
+    background-color: aliceblue;
+}
+
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: aqua;
+}
